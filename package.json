@@ -12,6 +12,8 @@
   "dependencies": {
     "@vitejs/plugin-vue": "^1.4.0",
     "core-js": "^3.6.5",
+    "rollup-plugin-md": "^1.0.1",
+    "vite-plugin-md": "^0.10.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2",

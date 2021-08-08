@@ -28,7 +28,7 @@ export default class Header extends Vue {
 }
 </script>
 
-<style lang="less">
+<style scoped lang="less">
 @import "../assets/styles/index.less";
 .site-main{
   background-color: @site-container-background-color;
@@ -37,7 +37,7 @@ export default class Header extends Vue {
   flex-direction: column;
   align-items: center;
   .site-main-content{
-    width: @site-container-width;
+    width: 1680px;
     flex: 1;
     display: flex;
     position: relative;

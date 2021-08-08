@@ -6,7 +6,7 @@ const pagesRouter: Array<RouteConfig> = [];
 Vue.use(VueRouter);
 
 /** vite */
-const modulesPage = import.meta.glob('/src/packages/**/doc.vue');
+const modulesPage = import.meta.glob('/src/packages/**/doc.md');
 for (const path in modulesPage) {
   let name = path.split("/").reverse()[1]
   console.log(name)
