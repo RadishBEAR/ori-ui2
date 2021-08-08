@@ -1,3 +1,13 @@
 .theme-fn-shadow(){
     box-shadow: 0 8px 12px #ebedf0;
 }
+
+.theme-fn-border-radius(){
+    border-radius: 12px;
+}
+
+.theme-card{
+    .theme-fn-shadow();
+    .theme-fn-border-radius();
+    background-color: @site-container-color;
+}

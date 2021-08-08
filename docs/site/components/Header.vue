@@ -21,6 +21,7 @@ export default class Header extends Vue {
   background-color: @site-header-background-color;
   display: flex;
   justify-content: center;
+  z-index: 2;
   .site-header-container{
     width: @site-container-width;
   }
